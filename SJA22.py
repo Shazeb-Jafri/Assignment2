@@ -86,3 +86,4 @@ class SalesApplication:
        
 app = SalesApplication()
 app.perform_sales_simulation()
+
