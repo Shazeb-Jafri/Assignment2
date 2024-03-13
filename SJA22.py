@@ -103,7 +103,7 @@ class SalesApplication:
     def simulate_sales(self):
         if self.stock_statement:
             print("\n12 Months Stock Statement:")
-            monthly_stock = self.stock_statement.generate_stock_statement()
+            self.stock_statement.generate_stock_statement()
         else:
             print("Error, try again.")
         
